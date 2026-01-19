@@ -1,0 +1,7 @@
+{
+  "name": "GPE Floxhub",
+  "description": "Sistema de Gestão Empresarial e Planejamento Estratégico focado em produtividade e segurança corporativa.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
