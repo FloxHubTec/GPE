@@ -1,5 +1,5 @@
 
-import { Task } from '../types';
+import { Task } from './types';
 
 /**
  * Algoritmo de Pontuação Floxhub
