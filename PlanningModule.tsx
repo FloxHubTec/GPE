@@ -25,8 +25,8 @@ import {
   CheckCircle2,
   Send
 } from 'lucide-react';
-import { ProjectStage, Attachment } from '../types';
-import { supabase } from '../services/supabase';
+import { ProjectStage, Attachment } from './types';
+import { supabase } from './supabase';
 
 const DEVS = [
   { id: 'dev1', name: 'Gabriel Silva', role: 'Front-end' },

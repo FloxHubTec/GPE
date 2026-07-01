@@ -25,7 +25,7 @@ import {
   Trash,
   Loader2
 } from 'lucide-react';
-import { supabase } from '../services/supabase';
+import { supabase } from './supabase';
 
 interface UserMember {
   id: string;
