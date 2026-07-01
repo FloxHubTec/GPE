@@ -41,7 +41,7 @@ import {
 } from 'lucide-react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import CreateClientForm from './CreateClientForm';
-import { ProjectStatus } from '../types';
+import { ProjectStatus } from './types';
 
 const MOCK_DATA = [
   { name: 'Jan', value: 12000 },
