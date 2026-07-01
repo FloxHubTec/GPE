@@ -16,9 +16,9 @@ import {
   AlertTriangle,
   X
 } from 'lucide-react';
-import ScoreWidget from '../components/ScoreWidget';
-import { Task } from '../types';
-import { syncScoreToBackend } from '../services/scoreService';
+import ScoreWidget from './ScoreWidget';
+import { Task } from './types';
+import { syncScoreToBackend } from './scoreService';
 
 const MOCK_TASKS: Task[] = [
   { id: '1', description: 'Atualizar documentação técnica', weight: 50, completed: false, category: 'FRONTEND', priority: 'MEDIUM', durationMinutes: 45, deadline: '2024-10-24' },
