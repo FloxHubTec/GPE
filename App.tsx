@@ -14,14 +14,14 @@ import {
   HelpCircle,
   ClipboardList
 } from 'lucide-react';
-import InternDashboard from './modules/InternDashboard';
-import LoginPage from './modules/LoginPage';
-import CRMModule from './modules/CRMModule';
-import FinanceModule from './modules/FinanceModule';
-import VaultModule from './modules/VaultModule';
-import ConfigModule from './modules/ConfigModule';
-import PlanningModule from './modules/PlanningModule';
-import MainDashboard from './modules/MainDashboard';
+import InternDashboard from './InternDashboard';
+import LoginPage from './LoginPage';
+import CRMModule from './CRMModule';
+import FinanceModule from './FinanceModule';
+import VaultModule from './VaultModule';
+import ConfigModule from './ConfigModule';
+import PlanningModule from './PlanningModule';
+import MainDashboard from './MainDashboard';
 
 const App: React.FC = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
